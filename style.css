@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+h1{
+    text-align: center;
+    text-transform: 300;
+}
+
+h2{
+    text-align: center;
+    text-transform: 300;
+    position: relative;
+    bottom: 100px;
+    left: 250px;
+}
+
+.login_text{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.kotak_login{
+    width: 350px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px; 
+}
+
+label{
+    font-size: 12pt;
+    color: black;
+}
+
+.form_login{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.tombol_login{
+    background-color: brown;
+    color: azure;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
